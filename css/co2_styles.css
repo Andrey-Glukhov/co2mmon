@@ -235,6 +235,13 @@ height: auto;
   .news_title{
     text-align: center;
   }
+  #top_video{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+  }
 /* ------------------ USERS ----------------------*/
 .user_opener_background{
   width: 100%;

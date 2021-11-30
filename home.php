@@ -5,18 +5,15 @@
 get_header(); ?>
 
 <img id="home_phone-image" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
-
-<div class="container-fluid" id="home_opener">
-    <div class="row">
-        <div class="col-12 home_opener_video">
-            <div id="top_video">
+<div id="top_video">
                 <video id="start_video" preload="metadata" playsinline muted autoplay="autoplay" loop="true">
                     <source src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/pexels-cottonbro.mp4"
                         type="video/mp4">
                 </video>
-            </div>
-        </div>
+</div>
 
+<div class="container-fluid" id="home_opener">
+    <div class="row">
         <div class="col-12 home_opener_background home-typed">
             <div id="typed-strings">
                 <p>WE BELIEVE IN</br>
