@@ -127,9 +127,21 @@ height: auto;
 }
 
 #start_video{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+@media (max-aspect-ratio: 16/9) {
+  #start_video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 
 .home_about{
   background: rgb(121,211,167);
