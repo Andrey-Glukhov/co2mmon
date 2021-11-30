@@ -134,7 +134,7 @@ height: auto;
   transform: translateX(-50%);
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {
   #start_video{
     width: 100%;
     height: auto;
