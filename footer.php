@@ -17,11 +17,12 @@
                     transform="translate(0.19 -24.71)" />
             </svg>
         </div>
-
+        
         <div class="row ft_wrapper justify-content-center">
-            <div class="col-12">
+            <div class="col-md-6">
                 <p>2021 Co2mmon. All right reserved</p>
             </div>
+            <div class="col-md-6"></div>
             <div class="col-12"><a href="https://www.instagram.com/technoirrotterdam/" target="_blank"><i
                         class="fab fa-linkedin"></i></a><a href="https://www.facebook.com/technoirrotterdam"
                     target="_blank"><i class="fab fa-twitter-square"></i></a></div>
