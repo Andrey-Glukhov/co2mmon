@@ -22,6 +22,7 @@ get_header(); ?>
     </div>
 
     <div class="row home_about">
+    
         <div class="col-md-1"></div>
         <div class="col-md-5">
             <h2>WHAT IS CO2MMON?</h2>
@@ -50,6 +51,9 @@ get_header(); ?>
             <img id="home_phone-image"
                 src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
         </div>
+        <div class="col-md-5 int_phone" >
+            <img id="home_phone-image_int" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
+        </div>   
     </div>
 
 

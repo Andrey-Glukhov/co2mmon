@@ -116,6 +116,12 @@ height: auto;
   right: 0;
 }
 
+#home_phone-image_int {
+
+}
+
+
+
 .home_opener_video{
   position: absolute;
   top: 0;
@@ -127,9 +133,21 @@ height: auto;
 }
 
 #start_video{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+@media (min-aspect-ratio: 16/9) {
+  #start_video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 
 .home_about{
   background: rgb(121,211,167);
@@ -173,6 +191,10 @@ height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .home_about>.int_phone {
+    display: none;
   }
   .home_about h2{
     font-size: 2.7rem;
@@ -373,22 +395,42 @@ margin: 30px 20px;
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
-
+  #home_phone-image {
+    display: none;
+  }
+  .home_about>.int_phone {
+    display: flex;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {  
-
+  #home_phone-image {
+    display: none;
+  }
+   .home_about>.int_phone {
+    display: flex;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {  
-
+  #home_phone-image {
+    display: none;
+  }
+   .home_about>.int_phone {
+    display: flex;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1200px) { 
-
+    #home_phone-image {
+      display: none;
+    }
+    .home_about>.int_phone {
+      display: flex;
+    }
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/
