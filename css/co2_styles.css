@@ -24,7 +24,7 @@ html {
     background-color: transparent !important;
     color: #00425b;
     z-index: 11111;
-    width:100%;
+    width:100vw;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0.0018382352941176405) 3%, rgba(255,255,255,1) 100%);
 }
@@ -135,8 +135,11 @@ height: auto;
   background: rgb(121,211,167);
   background: linear-gradient(180deg, rgba(121,211,167,1) 10%, rgba(5,135,180,1) 90%);
   /*background-color: #79D3A7;*/
-  min-height: 100vh;
+  min-height: 90vh;
   height: auto;
+}
+.white_background{
+  background-color: white;
 }
 
 #typed-strings>p{
@@ -155,7 +158,7 @@ height: auto;
     font-weight: 600;
     font-style: normal;
     line-height: 5rem;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
 
   .home-typed{
@@ -177,7 +180,9 @@ height: auto;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-bottom: 20px;
   }
+
   .home_about p{
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -242,6 +247,74 @@ height: auto;
     position: fixed;
     z-index: -1;
   }
+  .subscribe_title h2{
+    font-size: 2.7rem;
+    color: #0A6435;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .subscribe_body>p{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #0587b4;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .news_item{
+    text-align: center;
+    margin: 30px 0;
+  }
+  .news_item>img{
+    width: 150px;
+    height: auto;
+    text-align: center;
+  }
+  /* ------------------ SIGN UP ----------------------*/
+  .indicates-required{
+    display:none;
+  }
+  #mc_embed_signup{
+    width: 80%;
+    margin: 30px auto;
+  }
+  #mc_embed_signup>form{
+  padding:0 !important;
+  }
+  #mce-EMAIL, #mce-FNAME, #mce-LNAME{
+    border-radius: 50px !important;
+    border-color: #0587b4 !important;
+    border-width: 2px !important;
+  }
+  #mc_embed_signup .mc-field-group{
+    width: 100% !important;
+  }
+  .mc-field-group label{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #0587b4;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .asterisk{
+    display: none;
+  }
+  #mc_embed_signup_scroll .clear{
+    text-align: center;
+  }
+  #mc_embed_signup .button{
+    margin-top: 20px !important;
+    height: 42px !important;
+    border-radius: 50px !important;
+    background-color: #79d3a7 !important;
+  }
 /* ------------------ USERS ----------------------*/
 .user_opener_background{
   width: 100%;
@@ -284,6 +357,18 @@ background-position: center left;
   display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+/* ------------------ FOOTER ----------------------*/
+.logo-lable.in_footer{
+position: absolute;
+margin: 30px 20px;
+}
+.ft_wrapper{
+  background: rgb(121,211,167);
+  background: linear-gradient(180deg, rgba(121,211,167,1) 10%, rgba(5,135,180,1) 90%);
+  height: auto;
+  width: 100%;
 }
 /* ------------------ MEDIA----------------------*/
 
