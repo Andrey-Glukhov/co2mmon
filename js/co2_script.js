@@ -33,6 +33,17 @@ var homeScene = new ScrollMagic.Scene({
 .setPin('#home_phone-image', {pushFollowers:false})
 .addTo(controller);
 
+var abutScene = new ScrollMagic.Scene({
+  triggerElement:'.home_about',
+  triggerHook:0.05,
+  duration:'100%'
+
+})
+.on ('enter',setVideo)
+.on ('leave',setVideo)
+.addTo(controller);
+
+
 };
 });
 
@@ -45,10 +56,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });    
   drawLine();
 });
-  console.log("DOM fully loaded and parsed");
+  //console.log("DOM fully loaded and parsed");
 });
 
-
+function setVideo(event) {
+  console.log(event);
+  console.log(event.scrollDirection);
+  if (event.type === 'enter' &&  event.scrollDirection === 'FORWARD') {
+    $('#top_video').css('display', 'none');
+  } else if (event.type === 'leave' && event.scrollDirection === 'REVERSE') {
+    $('#top_video').css('display', 'block');
+  }
+}
 
 function drawLine() {
 var odd = true;
