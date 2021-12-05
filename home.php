@@ -124,15 +124,15 @@ get_header(); ?>
 
         <div class="col-md-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/companies-02.png" />
-            <h3>Companies</h3>
+            <h3>companies</h3>
         </div>
         <div class="col-md-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icons-04.png" />
-            <h3>Universities</h3>
+            <h3>universities</h3>
         </div>
         <div class="col-md-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icons-03.png" />
-            <h3>Municipalities</h3>
+            <h3>municipalities</h3>
         </div>
 
         <div class="col-md-7 col-11 news_title">
@@ -143,10 +143,11 @@ get_header(); ?>
         </div>
 
         <div class="col-12">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center fremium">
                 <div class="col-md-5 col-sm-11 col-11">
+                <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/app_store.png" />
                 </div>
-                <div class="col-md-5 col-sm-11 col-11">
+                <div class="col-md-5 col-sm-11 col-11 fremium_message">
                     <h3>FREEMIUM VERSION FOR INDIVIDUAL USERS</h3>
                     <p>Everybody can join CO2MMON. We provide a freemium version of our app with
                         limited features to make you feel the benefits of being eco-friendly.

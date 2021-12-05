@@ -17,18 +17,37 @@
                     transform="translate(0.19 -24.71)" />
             </svg>
         </div>
-        
-        <div class="row ft_wrapper justify-content-center">
-            <div class="col-md-6">
-                <p>2021 Co2mmon. All right reserved</p>
-            </div>
-            <div class="col-md-6"></div>
-            <div class="col-12"><a href="https://www.instagram.com/technoirrotterdam/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a><a href="https://www.facebook.com/technoirrotterdam"
-                    target="_blank"><i class="fab fa-twitter-square"></i></a></div>
 
-            <div class="col-12">
-                <p>Made with ❤️ in Munich and Budapest</p>
+        <div class="row ft_wrapper">
+            <div class="col-12 extra_menu_items">
+                <p>Privacy policy</p>
+                <p>Terms & conditions</p>
+            </div>
+
+            <div class="col-md-3 col-sm-8 col-11 ft_contect">
+                <p>info@co2mmon.eu</br>
+                    DE +49 151 45893845</br>
+                    HU +49 151 45893845
+                </p>
+                <div class="ft_icons_wrapper">
+                    <a href="https://www.instagram.com/technoirrotterdam/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+
+                    <a href="https://www.facebook.com/technoirrotterdam" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a>
+
+                    <a href="https://www.facebook.com/technoirrotterdam" target="_blank">
+                        <i class="fab fa-facebook-square"></i></a>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-8 col-11 ft_love">
+                <p>Made with <i class="fas fa-heart"></i> in Munich and Budapest</p>
+            </div>
+
+            <div class="col-md-3 col-sm-8 col-11 ft_rights">
+                <p>2021 Co2mmon©</p>
             </div>
 
         </div>

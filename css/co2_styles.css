@@ -298,6 +298,24 @@ height: auto;
     height: auto;
     text-align: center;
   }
+  .news_item h3{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 25px 0;
+  }
+  .fremium img{
+    width: 80%;
+    height: auto;
+  }
+  .fremium_message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   /* ------------------ SIGN UP ----------------------*/
   .indicates-required{
     display:none;
@@ -384,12 +402,79 @@ background-position: center left;
 /* ------------------ FOOTER ----------------------*/
 .logo-lable.in_footer{
 position: absolute;
-margin: 30px 20px;
+margin: 30px 38px;
+width: fit-content;
 }
 .ft_wrapper{
   background: rgb(121,211,167);
   background: linear-gradient(180deg, rgba(121,211,167,1) 10%, rgba(5,135,180,1) 90%);
   height: auto;
+}
+.extra_menu_items{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.extra_menu_items p{
+  margin: 15px 40px 5px 5px;
+  font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ft_contect p{
+  margin: 5px 5px 5px 40px;
+  font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ft_rights p{
+  margin: 5px 40px 5px 5px;
+  font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+.ft_rights{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ft_love{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ft_love p{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ft_icons_wrapper{
+  margin: 5px 5px 5px 40px;
+}
+.ft_icons_wrapper a{
+  text-decoration: none;
+    color: #0A6435;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 16px rgb(255 255 255 / 79%);
+    cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.1rem;
 }
 /* ------------------ MEDIA----------------------*/
 
