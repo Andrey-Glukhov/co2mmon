@@ -89,6 +89,9 @@ z-index: 1000;
 .menu-item-999{
 display:none;	
 }
+.navbar-toggler{
+  display: none;
+}
 /* ------------------ COMMON-CLASSES ----------------------*/
 
 .wp-block-image img{
@@ -115,12 +118,6 @@ height: auto;
   top: 5vh;
   right: 0;
 }
-
-#home_phone-image_int {
-
-}
-
-
 
 .home_opener_video{
   position: absolute;
@@ -318,12 +315,41 @@ height: auto;
   }
   .fremium_message h2{
     font-size: 2.7rem;
+    color: #ffffff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  #home_green_cent{
+    width: 80%;
+    height: auto;
+  }
+  .home_green_content{
+    margin:40px 0;
+  }
+  .home_green_content h2{
+    font-size: 2.7rem;
     color: #0A6435;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 20px;
   }
+  .home_green_content p{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #0587b4;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .home_green_wrapper .col-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   /* ------------------ SIGN UP ----------------------*/
   .indicates-required{
     display:none;
@@ -494,6 +520,15 @@ width: fit-content;
   .home_about>.int_phone {
     display: flex;
   }
+#typed {
+  font-size: 3.7rem;
+  color: #ffffff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 3.8rem;
+  margin-bottom: 85px;
+}
 }
 
 /* Medium devices (tablets, 768px and up)*/

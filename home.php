@@ -76,17 +76,19 @@ get_header(); ?>
 <!-- news -->
 
 <div class="container-fluid">
-    <div class="row justify-content-center white_background">
-        <div class="col-md-5 col-sm-9 col-11">
+    <div class="row justify-content-center white_background home_green_wrapper">
+
+    <div class="col-md-5 col-sm-9 col-11">
+        <img id="home_green_cent"
+                src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icon-big-05.png" />
         </div>
-        <div class="col-md-5 col-sm-9 col-11">
+
+        <div class="col-md-5 col-sm-9 col-11 home_green_content">
             <h2>ECO-FRIENDLINESS CAN PAY OFF</h2>
             <p> Protecting the environment requires a lot of effort, which will only benefit in the long run.
                 We say no! They have to be rewarded right here and now.
                 CO2MMON offers a solution to motivate your employees and convert the long-term benefits of
                 environmental friendliness into short-term incentives. </p>
-        </div>
-        <div class="col-md-5 col-sm-9 col-11">
 
             <h2>GREENCENTIVIZE YOURSELF</h2>
             <p> How? Gather Greencents with urban cycling or using public transportation.
@@ -94,8 +96,7 @@ get_header(); ?>
                 offering eco-friendly products and services. It means you can decrease your
                 CO2-emissions and increase the number of your GCs with purchasing these items.</p>
         </div>
-        <div class="col-md-5 col-sm-9 col-11">
-        </div>
+
     </div>
 </div>
 
