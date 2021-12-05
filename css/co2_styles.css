@@ -174,7 +174,8 @@ height: auto;
     font-style: normal;
     line-height: 5rem;
     margin-bottom: 120px;
-    margin-left: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .home-typed{
@@ -191,7 +192,7 @@ height: auto;
     flex-direction: column;
   }
 
-  .home_about #home_phone-image_int {
+  #home_phone-image_int {
     display: none;
   }
   .home_about h2{
@@ -532,6 +533,11 @@ width: fit-content;
     justify-content: center;
     align-items: center;
   }
+  #home_phone-image_int{
+  display: block;
+  width: 80%;
+  height: auto;
+  }
 #typed {
   font-size: 3.7rem;
   color: #ffffff;
@@ -547,10 +553,7 @@ width: fit-content;
 #home_green_cent{
   margin-top: 40px;
 }
-  #home_phone-image_int{
-  width: 80%;
-  height: auto;
-}
+
 .home_green_content h2,
 .home_about h2,
 .subscribe_title h2{
@@ -595,8 +598,11 @@ margin: 0;
   #home_phone-image {
     display: none;
   }
-   .home_about>.int_phone {
+  .home_about>.int_phone {
     display: flex;
+  }
+  #home_phone-image_int{
+  display: block;
   }
   .fremium_message h2{
     font-size: 2rem;
@@ -644,8 +650,11 @@ flex-direction: column;
   #home_phone-image {
     display: none;
   }
-   .home_about>.int_phone {
+  .home_about>.int_phone {
     display: flex;
+  }
+  #home_phone-image_int{
+  display: block;
   }
   #home_green_cent{
     width: 95%;
@@ -673,6 +682,9 @@ width: 90%;
     }
     .home_about>.int_phone {
       display: flex;
+    }
+    #home_phone-image_int{
+    display: block;
     }
     #home_green_cent{
       width: 95%;
