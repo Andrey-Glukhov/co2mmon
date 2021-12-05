@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<!-- <img id="home_phone-image" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" /> -->
+<img id="home_phone-image" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
 <div id="top_video">
     <video id="start_video" preload="metadata" playsinline muted autoplay="autoplay" loop="true">
         <source src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/pexels-cottonbro.mp4" type="video/mp4">
@@ -31,10 +31,10 @@ get_header(); ?>
                 and reward them with attractive offers of our partners.
             </p>
         </div>
-        <div class="col-md-6 d-xl-block d-lg-none d-md-none d-sm-none d-none">
+        <!-- <div class="col-md-6 d-xl-block d-lg-none d-md-none d-sm-none d-none">
             <img id="home_phone-image"
                 src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
-        </div>
+        </div> -->
         <div class="col-md-5 col-sm-5 col-11 int_phone" >
             <img id="home_phone-image_int" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
         </div>   
