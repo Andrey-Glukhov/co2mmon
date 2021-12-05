@@ -148,7 +148,7 @@ get_header(); ?>
                 <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/app_store.png" />
                 </div>
                 <div class="col-md-5 col-sm-11 col-11 fremium_message">
-                    <h3>FREEMIUM VERSION FOR INDIVIDUAL USERS</h3>
+                    <h2>FREEMIUM VERSION FOR INDIVIDUAL USERS</h2>
                     <p>Everybody can join CO2MMON. We provide a freemium version of our app with
                         limited features to make you feel the benefits of being eco-friendly.
                     </p>
