@@ -27,7 +27,7 @@ $(document).ready(function () {
       .addTo(controller);
 
     var aboutScene = new ScrollMagic.Scene({
-      triggerElement: ".home_about",
+      triggerElement: ".home_opener_background",
       triggerHook: 0.05,
       duration: "100%",
     })
@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 function setVideo(event) {
   //console.log(event);
   //console.log(event.scrollDirection);
-  if (event.type === "enter" && event.scrollDirection === "FORWARD") {
+  if (event.type === "leave" && event.scrollDirection === "FORWARD") {
     $("#top_video").css("display", "none");
-  } else if (event.type === "leave" && event.scrollDirection === "REVERSE") {
+  } else if (event.type === "enter" && event.scrollDirection === "REVERSE") {
     $("#top_video").css("display", "block");
   }
 }
