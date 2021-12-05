@@ -6,7 +6,7 @@ get_header(); ?>
 
 <!-- roadmap -->
 
-<div class="grid">
+<div class="grid about_grid">
     <div class="gtig__item">
         <div class="event_block">Event1</div>
     </div>
