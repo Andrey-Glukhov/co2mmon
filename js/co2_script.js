@@ -49,6 +49,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
   //console.log("DOM fully loaded and parsed");
+  // <<< MENU
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+    document.querySelector('.offcanvas-collapse').classList.toggle('open')
+  })
+
+  // >>>
 });
 
 function setVideo(event) {
