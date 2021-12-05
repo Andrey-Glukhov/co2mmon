@@ -18,13 +18,17 @@
             </svg>
         </div>
 
-        <div class="row ft_wrapper">
-            <div class="col-12 extra_menu_items">
+        <div class="row ft_wrapper justify-content-center">
+            <div class="col-sm-10 col-12 d-md-none d-sm-block d-block">
+            <div class="logo-lable"><img
+                    src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/logo_white.png"></div>
+            </div>
+            <div class="col-md-12 col-sm-5 col-6 extra_menu_items">
                 <p>Privacy policy</p>
                 <p>Terms & conditions</p>
             </div>
 
-            <div class="col-md-3 col-sm-8 col-11 ft_contect">
+            <div class="col-md-3 col-sm-5 col-6 ft_contect">
                 <p>info@co2mmon.eu</br>
                     DE +49 151 45893845</br>
                     HU +49 151 45893845
@@ -42,11 +46,11 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-8 col-11 ft_love">
+            <div class="col-md-6 col-sm-10 col-11 ft_love">
                 <p>Made with <i class="fas fa-heart"></i> in Munich and Budapest</p>
             </div>
 
-            <div class="col-md-3 col-sm-8 col-11 ft_rights">
+            <div class="col-md-3 col-sm-10 col-12 ft_rights">
                 <p>2021 Co2mmon©</p>
             </div>
 

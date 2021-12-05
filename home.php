@@ -21,37 +21,21 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row home_about">
-    
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+    <div class="row home_about justify-content-md-center justify-content-sm-end justify-content-center">
+
+        <div class="col-xl-4 col-md-5 col-sm-6 col-11">
             <h2>WHAT IS CO2MMON?</h2>
             <p>CO2MMON is a startup developing a green mobility loyalty app.
                 It motivates your employees to use mobility solutions such as urban
                 cycling and public transportation. We measure their eco-friendly acts
                 and reward them with attractive offers of our partners.
             </p>
-            <!-- <div class="learn_more">
-                <p>Learn more about how CO2MMON works</p> <a href="http://localhost:8888/co2mmon/wordpress/for-users/">
-
-                    <svg id="arrow_1" data-name="arrow 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 15">
-                        <defs>
-                            <style>
-                            .arw-1 {
-                                fill: #ffffff;
-                            }
-                            </style>
-                        </defs>
-                        <path class="arw-1" d="M21.88,12l-7.52,6.24L15,19l9-7.52L15,4l-.65.76L21.88,11H0v1Z"
-                            transform="translate(0 -4)" />
-                    </svg></a>
-            </div> -->
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 d-xl-block d-lg-none d-md-none d-sm-none d-none">
             <img id="home_phone-image"
                 src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
         </div>
-        <div class="col-md-5 int_phone" >
+        <div class="col-md-5 col-sm-5 col-11 int_phone" >
             <img id="home_phone-image_int" src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/screen_one.png" />
         </div>   
     </div>
@@ -78,12 +62,12 @@ get_header(); ?>
 <div class="container-fluid">
     <div class="row justify-content-center white_background home_green_wrapper">
 
-    <div class="col-md-5 col-sm-9 col-11">
+    <div class="col-xl-5 col-md-4 col-sm-9 col-11">
         <img id="home_green_cent"
                 src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icon-big-05.png" />
         </div>
 
-        <div class="col-md-5 col-sm-9 col-11 home_green_content">
+        <div class="col-xl-5 col-md-6 col-sm-9 col-11 home_green_content">
             <h2>ECO-FRIENDLINESS CAN PAY OFF</h2>
             <p> Protecting the environment requires a lot of effort, which will only benefit in the long run.
                 We say no! They have to be rewarded right here and now.
@@ -119,19 +103,19 @@ get_header(); ?>
     </div>
 
     <div class="row home_about justify-content-center">
-        <div class="col-12 news_title">
+        <div class="col-11 news_title">
             <h2>WHO CAN BE THE CUSTOMER OF CO2MMON?</h2>
         </div>
 
-        <div class="col-md-3 col-11  news_item">
+        <div class="col-sm-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/companies-02.png" />
             <h3>companies</h3>
         </div>
-        <div class="col-md-3 col-11  news_item">
+        <div class="col-sm-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icons-04.png" />
             <h3>universities</h3>
         </div>
-        <div class="col-md-3 col-11  news_item">
+        <div class="col-sm-3 col-11  news_item">
             <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/icons-03.png" />
             <h3>municipalities</h3>
         </div>
@@ -144,11 +128,11 @@ get_header(); ?>
         </div>
 
         <div class="col-12">
-            <div class="row justify-content-center fremium">
-                <div class="col-md-5 col-sm-11 col-11">
+            <div class="row justify-content-md-center justify-content-sm-start fremium">
+                <div class="col-md-5 col-sm-5 col-11">
                 <img src="<?php echo get_site_url();?>/wp-content/themes/co2mmon/img/app_store.png" />
                 </div>
-                <div class="col-md-5 col-sm-11 col-11 fremium_message">
+                <div class="col-md-5 col-sm-6 col-11 fremium_message">
                     <h2>FREEMIUM VERSION FOR INDIVIDUAL USERS</h2>
                     <p>Everybody can join CO2MMON. We provide a freemium version of our app with
                         limited features to make you feel the benefits of being eco-friendly.
